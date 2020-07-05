@@ -1,6 +1,6 @@
 package com.itheima.infor.manager.domain;
 
-public class Student {
+public class Student extends com.itheima.infor.manager02.domain.Student {
     private String id;
     private String name;
     private String age;

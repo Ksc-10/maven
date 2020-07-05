@@ -15,11 +15,11 @@ import com.itheima.infor.manager.domain.Student;
             }
 
             //获取索引
-            public int getIndex(String delId) {
+            public int getIndex(String id) {
                 int index=-1;
                 for (int i = 0; i < stau.length; i++) {
                     Student stu = stau[i];
-                    if (stu != null && stu.getId().equals(delId)){
+                    if (stu != null && stu.getId().equals(id)){
                         index=i;
                         break;
                     }
